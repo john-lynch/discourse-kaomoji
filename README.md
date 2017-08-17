@@ -9,7 +9,7 @@ Once installed, users simply have to type `/examplecommand` and the slash text w
 The plugin is currently configured in a rather crude fashion: the user enters a string of JSON into the "kaomoji mapping json" field in the Discourse plugin configuration page. This JSON is parsed so that each key on the result object is a command and each value associated with it is the value to use when that command is encountered. So for example:
 
     {
-    	"shrug": "¯\_(ツ)_/¯""
+    	"shrug": "¯\_(ツ)_/¯"
     }
 
 This bit of JSON configures the plugin to replace the command `/shrug` with `¯\_(ツ)_/¯`. Additional replacements can be added simply by ammending the JSON. Since the discourse plugin uses a single line edit box for text, it's probably best to do this in an external editor, then minify and paste the results back. Yeah, it would be nice to configure this differently.

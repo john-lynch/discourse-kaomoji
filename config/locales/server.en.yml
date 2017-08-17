@@ -1,0 +1,4 @@
+en:
+  site_settings:
+    kaomoji_enabled: "Enable the kaomoji plugin."
+    kaomoji_mapping_json: "JSON string specifying the mapping of slash commands to textual replacements."

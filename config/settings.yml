@@ -1,0 +1,8 @@
+plugins:
+  kaomoji_enabled:
+    default: true
+    client: true
+  kaomoji_mapping_json:
+    default: '{"shrug":"¯\\_(ツ)_/¯"}'
+    type: string
+    client: true

@@ -6,7 +6,7 @@ Information on how to install a Discourse plugin is avaliable [here][2].
 
 Once installed, users simply have to type `/examplecommand` and the slash text will be replaced with a substitution. For example, by default `/shrug` is replaced by `¯\_(ツ)_/¯`.
 
-The plugin is currently configured in a rather crude fashion: the user enters a string of JSON into the "kaomoji mapping json" field in the Discourse plugin configuration page. This JSON is parsed so that each key on the result object is a command and each value associated with it is the value to use when that command is encountered. So for example:
+The plugin is currently configured in a rather crude fashion: the administrator enters a string of JSON into the "kaomoji mapping json" field in the Discourse plugin configuration page. This JSON is parsed so that each key on the result object is a command and each value associated with it is the value to use when that command is encountered. So for example:
 
     {
     	"shrug": "¯\_(ツ)_/¯"
